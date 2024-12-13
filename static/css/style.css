@@ -1,0 +1,190 @@
+*{
+    margin: 0;  
+    padding:0;
+    
+  }
+  
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url("../images/bitcoins.jpg"); /* Replace with your image URL */
+     /* Ensure the image covers the entire page */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    background-attachment: fixed; /* Make the image static */
+    background-position: left; /* Center the image */
+    display:block;
+    min-height: 100vh;
+}
+
+.content{
+    min-height: 100vh; /* Create enough content to enable scrolling */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent content background */
+    display:flex;
+    padding-bottom: 100px; 
+}
+
+
+.navbar{
+    background-color:rgb(5, 10, 48);
+    height: 80px;
+ }
+ .logo{
+    padding-left: 40px;
+ }
+.logo>img{
+    width: 160px;
+    height:60px;   
+}
+.batwa{
+    display:flex;
+}
+.name{
+    display:flex;
+    gap:5rem;
+    
+    margin-right:100px;
+    
+}
+.name >p{
+    margin-top: 15px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+p>a{
+    text-decoration: None;
+    font-size: large;
+    color:aliceblue;
+}
+p>a:hover{
+    color:rgb(20, 10, 227) ;
+    text-decoration: none;
+  }
+
+
+.signin-button{
+    background-color: #1a50ff;
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px ; 
+    border: none; 
+    border-radius: 20px;
+    cursor: pointer; 
+    outline: none; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically if necessary */
+    padding: 20px;
+}
+
+
+.second{
+    position: absolute;
+    z-index: 2;
+    margin:50px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    margin-right: 50%;
+   
+}
+.second h1{
+    font-size: 60px;
+    
+}
+.second h2{
+    margin-top:50px;
+    
+}
+.second a{
+    text-decoration: none;
+    color:#fff;
+}
+button>a:hover{
+   
+    color:gray;
+}
+
+/* Image styling */
+.image-container img {
+    margin-top: 100px;
+    margin-right: 100px;
+    width: 400px; /* Set the desired image width */
+    height: 700px; /* Keep the aspect ratio */
+    border-radius: 100px; /* Rounds the corners (increase for more roundness) */
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.7), /* Outer glow */
+                0 0 30px rgba(0, 123, 255, 0.5), 
+                0 0 30px rgba(0, 123, 255, 0.3);
+    transition: box-shadow 0.3s ease; /* Smooth transition effect */
+    
+}
+
+/* Optional hover effect for a stronger glow */
+.image-container img:hover {
+    box-shadow: 0 0 20px rgba(254, 255, 196, 0.8), 
+                0 0 30px rgba(254, 255, 196, 0.6), 
+                0 0 40px rgba(254, 255, 196, 0.4);
+}
+.image-container img {
+    position: absolute;
+    right: 10px; /* Distance from the right edge */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for exact vertical centering */
+}
+
+.predict>h1{
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    text-align: center;
+
+}
+.fourth{
+    display:flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Add space between the items */
+    gap: 100px;
+    
+}
+
+
+.para{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    width: 50%;
+
+}
+.chart{
+    width:50%;
+    
+}
+.predict2>h1{
+    margin-top:50px ;
+    font-size: 40px;
+    font-style: italic;
+    color: aliceblue;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    text-align: center;
+    background-color: rgb(5, 10, 48);
+}
+.button{
+    text-align: center;
+    font-style: italic;
+    color:rgb(5, 10, 48);
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+footer:hover {
+    color:white;
+ }
+
+
